@@ -14,7 +14,7 @@ from hurricane import Hurricane
 
 api = Hurricane()
 
-@api.route(r\"/say/hello\", 'GET')
+@api.route(r"/say/hello", 'GET')
 def say_hello(handler):
     handler.write('Hello!')
 
